@@ -48,11 +48,11 @@ func TestJobObject(t *testing.T) {
 	go func() {
 		_, err := e.Process.Wait()
 		if err != nil {
-			t.Fatal(err)
+			t.Error(err)
 		}
 
 		if !closeCalled {
-			t.Fatal("exit before close called")
+			t.Error("exit before close called")
 		}
 
 		exited = true
