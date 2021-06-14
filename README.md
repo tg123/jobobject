@@ -1,4 +1,8 @@
 # JobObject
+
+[![](https://pkg.go.dev/badge/github.com/tg123/jobobject?status.svg)](https://pkg.go.dev/github.com/tg123/jobobject)
+
+
  Windows JobObject utils for kill all child processes when parent process exits
  
 # Exmaple
